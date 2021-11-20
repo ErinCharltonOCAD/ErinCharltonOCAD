@@ -9,7 +9,7 @@ html{
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: red; /* Set a background color */
+  background-color: #f5cf89; /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
@@ -49,6 +49,17 @@ html{
 	margin: 100px;
 	top: 70px;
 }
+.info {
+	text-decoration: none;
+	position: fixed;
+	z-index: 1;
+	color: white;
+	font-size:  11px;
+	font-family: 'Urbanist', 'sans-serif';
+	font-weight: thin;
+	margin: 100px;
+	top: 140px;
+}
 
 #background1{
 	width: 100%;
@@ -87,6 +98,18 @@ html{
 }
 
 #background6{
+	width: 100%;
+	height: auto; 
+	position: relative;
+	z-index:  -1;
+}
+#background7{
+	width: 100%;
+	height: auto; 
+	position: relative;
+	z-index:  -1;
+}
+#background8{
 	width: 100%;
 	height: auto; 
 	position: relative;
